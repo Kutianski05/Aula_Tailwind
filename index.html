@@ -7,6 +7,35 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    
+    <!--NAV BAR's-->
+    <header class="bg-blue-600 text-white shadow-xl">
+      <div class="max-w-9xl flex justify-between items-center px-4 py-3">
+        <h1 class="text-xl font-bold">Aula Tailwind</h1>
+        <nav class="space-x-2">
+            <a href="#" class="hover::underline">Home</a>
+            <a href="#" class="hover::underline">Sobre nós</a>
+            <a href="#" class="hover::underline">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+   <!--Hero ("Capa")-->
+   <section class="bg-green-200">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 sm:grid-cols-1 items-center px-4 py-10">
+            <div>
+                <h2 class="text-4xl font-bold text-blue-600 mb-4 ">Aula Tailwind</h2>
+                <p class="text-lg mb-6">Fazendo Tailwind na tecla do teclado da Campo Real.</p>
+                
+                <div class="flex gap-5">
+                    <button class="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition">Saiba Mais</button>
+                    <button class="border border-blue-600 text-blue-600 rounded-lg px-5 py-2 hover:bg-blue-600 hover:text-white transition">Saiba Menos</button>
+                </div>
+            </div>
+            <div>
+                <img src="https://picsum.photos/800/600" alt="Imagem PlaceHolder" class="rounded-2xl w-full">
+            </div>
+            </div>
+        </div>
+   </section>
 </body>
 </html>
